@@ -1,0 +1,982 @@
+<!DOCTYPE html>
+<!-- saved from url=(0152)https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/37495702563d4f0ae49a73ef4160d4ba/fbe38d2c-2428-4f15-b444-ebbc17e994b3/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PharmEasy Customer Review Analysis - Academic Project</title>
+  <link rel="stylesheet" href="./PharmEasy Customer Review Analysis - Academic Project_files/style.css">
+  <script src="./PharmEasy Customer Review Analysis - Academic Project_files/chart.js.download"></script>
+</head>
+<body>
+  <!-- Progress Bar -->
+  <div class="progress-container">
+    <div class="progress-bar" id="progressBar" style="width: 30%;"></div>
+  </div>
+
+  <!-- Slide Navigation Indicators -->
+  <div class="slide-indicators" id="slideIndicators"><div class="slide-indicator"></div><div class="slide-indicator"></div><div class="slide-indicator"></div><div class="slide-indicator"></div><div class="slide-indicator"></div><div class="slide-indicator active"></div><div class="slide-indicator"></div><div class="slide-indicator"></div><div class="slide-indicator"></div><div class="slide-indicator"></div><div class="slide-indicator"></div><div class="slide-indicator"></div><div class="slide-indicator"></div><div class="slide-indicator"></div><div class="slide-indicator"></div><div class="slide-indicator"></div><div class="slide-indicator"></div><div class="slide-indicator"></div><div class="slide-indicator"></div><div class="slide-indicator"></div></div>
+
+  <!-- Main Presentation Container -->
+  <div class="presentation-container" id="presentationContainer">
+    
+    <!-- SLIDE 1: TITLE SLIDE -->
+    <section class="slide" id="slide1">
+      <div class="slide-content title-slide">
+        <div class="logo-placeholder">PharmEasy</div>
+        <h1>Patient-Centric Healthcare Service Delivery: PharmEasy Analysis</h1>
+        <h2>Customer Review Analysis &amp; Improvement Strategy</h2>
+        <p class="subtitle-group">Final Project - Group 12</p>
+        <div class="student-details">
+          <p><strong>Course:</strong> Patient Centric Healthcare Service Delivery</p>
+          <p><strong>Program:</strong> MBA-HHM</p>
+          <p><strong>Academic Year:</strong> 2025-2026</p>
+        </div>
+        <div class="presented-by">
+          <h3>Presented By: Group 12</h3>
+          <div class="group-members">
+            <p>Aditya Kumar (HHM/1003/03)</p>
+            <p>Akash Dibragede (HHM/1006/03)</p>
+            <p>Arulya Kashyap (HHM/1014/03)</p>
+            <p>Aryan Singh Chauhan (HHM/1015/03)</p>
+            <p>Ayush Nandan Mahanta (HHM/1020/03)</p>
+            <p>Kuldeep Verma (HHM/1040/03)</p>
+            <p>Rohit Kumar (HHM/1067/03)</p>
+          </div>
+        </div>
+        <button class="btn btn--primary btn--lg" onclick="nextSlide()">Start Presentation</button>
+      </div>
+    </section>
+
+    <!-- SLIDE 2: PROJECT OVERVIEW -->
+    <section class="slide" id="slide2">
+      <div class="slide-content">
+        <h2>Project Overview</h2>
+        <div class="overview-grid">
+          <div class="overview-card" style="background: var(--color-bg-1)">
+            <div class="card-icon">📋</div>
+            <h3>Project Type</h3>
+            <p>Group 12 - Final Project</p>
+          </div>
+          <div class="overview-card" style="background: var(--color-bg-2)">
+            <div class="card-icon">🏥</div>
+            <h3>Service Provider</h3>
+            <p>PharmEasy (App-based Healthcare)</p>
+          </div>
+          <div class="overview-card" style="background: var(--color-bg-3)">
+            <div class="card-icon">📊</div>
+            <h3>Reviews Analyzed</h3>
+            <p>500+ Customer Reviews</p>
+          </div>
+        </div>
+        <div class="objective-box">
+          <h3>Project Description</h3>
+          <p>This comprehensive analysis examines PharmEasy's customer reviews to identify critical pain points in healthcare service delivery, assess customer satisfaction levels, and provide evidence-based recommendations for service improvement and enhanced patient experience. The study employs mixed-methods research approach combining quantitative metrics and qualitative insights from multiple review platforms.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 3: PROJECT OBJECTIVES -->
+    <section class="slide" id="slide3">
+      <div class="slide-content">
+        <h2>Project Objectives &amp; Deliverables</h2>
+        <div class="objectives-grid">
+          <div class="objective-card" style="background: var(--color-bg-1)">
+            <div class="objective-number">1</div>
+            <h3>Service Provider Selection</h3>
+            <p>Select and analyze a prominent healthcare service provider (PharmEasy) operating in the Indian market</p>
+          </div>
+          <div class="objective-card" style="background: var(--color-bg-2)">
+            <div class="objective-number">2</div>
+            <h3>Data Collection</h3>
+            <p>Collect and systematically organize 500+ customer reviews from multiple platforms and sources</p>
+          </div>
+          <div class="objective-card" style="background: var(--color-bg-3)">
+            <div class="objective-number">3</div>
+            <h3>Pain Point Identification</h3>
+            <p>Identify and categorize customer pain points across the entire service delivery journey</p>
+          </div>
+          <div class="objective-card" style="background: var(--color-bg-4)">
+            <div class="objective-number">4</div>
+            <h3>Improvement Strategy</h3>
+            <p>Develop comprehensive, actionable recommendations for service improvement</p>
+          </div>
+          <div class="objective-card" style="background: var(--color-bg-5)">
+            <div class="objective-number">5</div>
+            <h3>Service Blueprint</h3>
+            <p>Create detailed customer journey map and service blueprint highlighting touchpoints</p>
+          </div>
+          <div class="objective-card" style="background: var(--color-bg-6)">
+            <div class="objective-number">6</div>
+            <h3>Actionable Insights</h3>
+            <p>Present findings with data-driven insights and implementation roadmap</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 4: METHODOLOGY -->
+    <section class="slide" id="slide4">
+      <div class="slide-content">
+        <h2>Research Methodology</h2>
+        <div class="methodology-grid">
+          <div class="method-card">
+            <h3>Data Collection Approach</h3>
+            <ul>
+              <li>Multi-platform review aggregation</li>
+              <li>Systematic categorization</li>
+              <li>Sentiment analysis</li>
+              <li>Thematic coding</li>
+            </ul>
+          </div>
+          <div class="method-card">
+            <h3>Data Sources</h3>
+            <ul>
+              <li>Google Play Store</li>
+              <li>Apple App Store</li>
+              <li>PissedConsumer</li>
+              <li>Trustpilot</li>
+              <li>Reddit &amp; LinkedIn discussions</li>
+            </ul>
+          </div>
+          <div class="method-card">
+            <h3>Analysis Framework</h3>
+            <ul>
+              <li>Quantitative metrics analysis</li>
+              <li>Qualitative content analysis</li>
+              <li>Customer journey mapping</li>
+              <li>Service quality assessment</li>
+            </ul>
+          </div>
+          <div class="method-card">
+            <h3>Sample &amp; Timeline</h3>
+            <ul>
+              <li><strong>Sample Size:</strong> 500+ reviews</li>
+              <li><strong>Period:</strong> May-October 2024</li>
+              <li><strong>Categories:</strong> 8 pain point clusters</li>
+              <li><strong>Sentiment Scale:</strong> 5-point scale</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 5: KEY STATISTICS -->
+    <section class="slide" id="slide5">
+      <div class="slide-content">
+        <h2>Key Statistics Overview</h2>
+        <div class="stats-showcase">
+          <div class="stat-large" style="background: var(--color-bg-1)">
+            <div class="stat-value-large">500+</div>
+            <div class="stat-label-large">Reviews Analyzed</div>
+          </div>
+          <div class="stats-secondary">
+            <div class="stat-card" style="background: var(--color-bg-4)">
+              <div class="stat-value">73%</div>
+              <div class="stat-label">Negative Sentiment</div>
+            </div>
+            <div class="stat-card" style="background: var(--color-bg-2)">
+              <div class="stat-value">1.7-3.9</div>
+              <div class="stat-label">Average Rating</div>
+            </div>
+            <div class="stat-card" style="background: var(--color-bg-4)">
+              <div class="stat-value">27%</div>
+              <div class="stat-label">Customer Satisfaction</div>
+            </div>
+            <div class="stat-card" style="background: var(--color-bg-3)">
+              <div class="stat-value">8</div>
+              <div class="stat-label">Major Pain Point Categories</div>
+            </div>
+          </div>
+        </div>
+        <div class="insight-box">
+          <strong>Critical Alert:</strong> 73% negative sentiment with only 27% customer satisfaction indicates severe systemic issues requiring immediate comprehensive intervention across all service touchpoints.
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 6: TOP PAIN POINTS DASHBOARD -->
+    <section class="slide active" id="slide6">
+      <div class="slide-content">
+        <h2>Key Pain Points Dashboard</h2>
+        <p class="slide-subtitle">Click on any bar to see detailed customer examples</p>
+        <div class="chart-container" style="height: 450px;">
+          <canvas id="painPointsChart" height="500" style="display: block; box-sizing: border-box; height: 400.4px; width: 1150.4px;" width="1438"></canvas>
+        </div>
+        <div class="insight-box">
+          <strong>Key Insight:</strong> Delivery Issues and Customer Service Problems account for 48% of all complaints, indicating systemic operational challenges.
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 7: SENTIMENT ANALYSIS -->
+    <section class="slide" id="slide7">
+      <div class="slide-content">
+        <h2>Customer Sentiment Analysis</h2>
+        <div class="chart-container" style="height: 450px;">
+          <canvas id="sentimentChart" height="500" style="display: block; box-sizing: border-box; height: 400.4px; width: 1150.4px;" width="1438"></canvas>
+        </div>
+        <div class="insight-box">
+          <strong>Critical Finding:</strong> 73% of customers express negative sentiment (Very Negative + Negative), with only 12% showing positive sentiment. This indicates severe trust erosion and service quality concerns.
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 8: RATING DISTRIBUTION -->
+    <section class="slide" id="slide8">
+      <div class="slide-content">
+        <h2>Star Rating Distribution</h2>
+        <div class="rating-bars">
+          <div class="rating-row">
+            <div class="stars">★★★★★</div>
+            <div class="bar-container">
+              <div class="bar" style="width: 4%; background: #4CAF50;"></div>
+            </div>
+            <span class="percentage">4%</span>
+          </div>
+          <div class="rating-row">
+            <div class="stars">★★★★☆</div>
+            <div class="bar-container">
+              <div class="bar" style="width: 8%; background: #8BC34A;"></div>
+            </div>
+            <span class="percentage">8%</span>
+          </div>
+          <div class="rating-row">
+            <div class="stars">★★★☆☆</div>
+            <div class="bar-container">
+              <div class="bar" style="width: 15%; background: #FFC107;"></div>
+            </div>
+            <span class="percentage">15%</span>
+          </div>
+          <div class="rating-row">
+            <div class="stars">★★☆☆☆</div>
+            <div class="bar-container">
+              <div class="bar" style="width: 28%; background: #FF9800;"></div>
+            </div>
+            <span class="percentage">28%</span>
+          </div>
+          <div class="rating-row">
+            <div class="stars">★☆☆☆☆</div>
+            <div class="bar-container">
+              <div class="bar" style="width: 45%; background: #F44336;"></div>
+            </div>
+            <span class="percentage">45%</span>
+          </div>
+        </div>
+        <div class="insight-box">
+          <strong>Analysis:</strong> 73% of ratings are 1-2 stars, correlating with the negative sentiment data. This low trust score reflects fundamental service delivery failures.
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 9: DETAILED COMPLAINT ANALYSIS -->
+    <section class="slide" id="slide9">
+      <div class="slide-content">
+        <h2>Top 10 Specific Complaints</h2>
+        <p class="slide-subtitle">Click on any complaint to view customer quotes</p>
+        <div class="chart-container" style="height: 450px;">
+          <canvas id="complaintsChart" height="500" style="display: block; box-sizing: border-box; height: 400.4px; width: 1150.4px;" width="1438"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 10: COMPLAINT TRENDS -->
+    <section class="slide" id="slide10">
+      <div class="slide-content">
+        <h2>Monthly Complaint Trends</h2>
+        <p class="slide-subtitle">May - October 2024</p>
+        <div class="chart-container" style="height: 400px;">
+          <canvas id="trendsChart" height="438" style="display: block; box-sizing: border-box; height: 350.4px; width: 1150.4px;" width="1438"></canvas>
+        </div>
+        <div class="insight-box">
+          <strong>Alarming Trend:</strong> Complaints have increased by 43% from May (142) to October (203), representing an average monthly growth of 8-12%. This indicates deteriorating service quality requiring urgent intervention.
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 11: SERVICE QUALITY METRICS -->
+    <section class="slide" id="slide11">
+      <div class="slide-content">
+        <h2>Service Quality Performance Metrics</h2>
+        <p class="slide-subtitle">Red line indicates industry benchmark (75/100)</p>
+        <div class="chart-container" style="height: 450px;">
+          <canvas id="radarChart" height="500" style="display: block; box-sizing: border-box; height: 400.4px; width: 1150.4px;" width="1438"></canvas>
+        </div>
+        <div class="insight-box">
+          <strong>Gap Analysis:</strong> All metrics fall significantly below industry benchmark. Customer Support (28) is the weakest area, while App Experience (65) is relatively stronger but still below standard.
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 12: CUSTOMER JOURNEY - PAIN POINTS -->
+    <section class="slide" id="slide12">
+      <div class="slide-content">
+        <h2>Customer Pain Score Progression Through Journey</h2>
+        <div class="journey-visual">
+          <div class="journey-stage">
+            <div class="stage-icon">🔍</div>
+            <div class="stage-name">Order Placement</div>
+            <div class="pain-score low">Pain: 15/100</div>
+          </div>
+          <div class="journey-arrow">→</div>
+          <div class="journey-stage">
+            <div class="stage-icon">✓</div>
+            <div class="stage-name">Order Confirmation</div>
+            <div class="pain-score low">Pain: 25/100</div>
+          </div>
+          <div class="journey-arrow">→</div>
+          <div class="journey-stage">
+            <div class="stage-icon">⚙️</div>
+            <div class="stage-name">Processing</div>
+            <div class="pain-score medium">Pain: 35/100</div>
+          </div>
+          <div class="journey-arrow">→</div>
+          <div class="journey-stage critical">
+            <div class="stage-icon">🚚</div>
+            <div class="stage-name">Delivery</div>
+            <div class="pain-score high">Pain: 45/100</div>
+          </div>
+          <div class="journey-arrow">→</div>
+          <div class="journey-stage critical">
+            <div class="stage-icon">📞</div>
+            <div class="stage-name">Post-Delivery Support</div>
+            <div class="pain-score critical">Pain: 60/100</div>
+          </div>
+        </div>
+        <div class="chart-container" style="height: 300px; margin-top: 30px;">
+          <canvas id="journeyChart" height="313" style="display: block; box-sizing: border-box; height: 250.4px; width: 1150.4px;" width="1438"></canvas>
+        </div>
+        <div class="insight-box">
+          <strong>Critical Insight:</strong> Pain increases dramatically through the journey, peaking at Post-Delivery Support (60/100). Delivery and post-purchase support are the weakest touchpoints.
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 13: CUSTOMER DEMOGRAPHICS -->
+    <section class="slide" id="slide13">
+      <div class="slide-content">
+        <h2>Complaint Origin - Geographic Distribution</h2>
+        <div class="chart-container" style="height: 450px;">
+          <canvas id="demographicsChart" height="500" style="display: block; box-sizing: border-box; height: 400.4px; width: 1150.4px;" width="1438"></canvas>
+        </div>
+        <div class="insight-box">
+          <strong>Geographic Insight:</strong> Urban Metro areas contribute 48% of complaints despite having better infrastructure. This suggests higher customer expectations and service standards in metropolitan regions.
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 14: CUSTOMER DEMANDS -->
+    <section class="slide" id="slide14">
+      <div class="slide-content">
+        <h2>What Customers Want - Top 5 Improvement Demands</h2>
+        <p class="slide-subtitle">Percentage of customers requesting each improvement</p>
+        <div class="chart-container" style="height: 400px;">
+          <canvas id="recommendationsChart" height="438" style="display: block; box-sizing: border-box; height: 350.4px; width: 1150.4px;" width="1438"></canvas>
+        </div>
+        <div class="insight-box">
+          <strong>Action Priority:</strong> 89% of customers demand improved delivery reliability, followed closely by better customer service (86%). These two areas must be addressed immediately.
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 15: RECOMMENDATIONS PART 1 -->
+    <section class="slide" id="slide15">
+      <div class="slide-content">
+        <h2>Recommendations Part 1: Delivery &amp; Service Excellence</h2>
+        <div class="recommendations-split">
+          <div class="recommendation-section" style="background: var(--color-bg-1)">
+            <h3>🚚 Delivery Excellence Program</h3>
+            <ul class="recommendation-list">
+              <li>✔ Implement robust logistics tracking system</li>
+              <li>✔ Partner with reliable delivery services</li>
+              <li>✔ Same-day delivery in metro cities</li>
+              <li>✔ SMS/app notifications at each stage</li>
+              <li>✔ Guaranteed delivery time with penalties</li>
+            </ul>
+          </div>
+          <div class="recommendation-section" style="background: var(--color-bg-2)">
+            <h3>📞 Customer Service Transformation</h3>
+            <ul class="recommendation-list">
+              <li>✔ 24/7 multi-channel support (phone, chat, email)</li>
+              <li>✔ Dedicated complaint resolution team</li>
+              <li>✔ Maximum 24-hour response time SLA</li>
+              <li>✔ Empowered support staff for instant refunds</li>
+              <li>✔ Clear escalation matrix</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 16: RECOMMENDATIONS PART 2 -->
+    <section class="slide" id="slide16">
+      <div class="slide-content">
+        <h2>Recommendations Part 2: Quality &amp; Technology</h2>
+        <div class="recommendations-split">
+          <div class="recommendation-section" style="background: var(--color-bg-3)">
+            <h3>✅ Quality Assurance Protocol</h3>
+            <ul class="recommendation-list">
+              <li>✔ Mandatory expiry date checks (min 6 months)</li>
+              <li>✔ Double-verification before dispatch</li>
+              <li>✔ Temperature-controlled logistics</li>
+              <li>✔ Secure, tamper-proof packaging</li>
+              <li>✔ Random quality audits</li>
+            </ul>
+          </div>
+          <div class="recommendation-section" style="background: var(--color-bg-5)">
+            <h3>📱 Technology Improvements</h3>
+            <ul class="recommendation-list">
+              <li>✔ Real-time order tracking system</li>
+              <li>✔ AI-powered inventory management</li>
+              <li>✔ App stability improvements (bug fixes)</li>
+              <li>✔ Transparent pricing display</li>
+              <li>✔ One-click reorder feature</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 17: RECOMMENDATIONS PART 3 -->
+    <section class="slide" id="slide17">
+      <div class="slide-content">
+        <h2>Recommendations Part 3: Refund &amp; Returns Process</h2>
+        <div class="recommendation-highlight" style="background: var(--color-bg-6)">
+          <h3>💳 Refund &amp; Returns Excellence</h3>
+          <p class="recommendation-note">Build trust through instant action and transparent processes</p>
+          <ul class="recommendation-list-large">
+            <li>✔ Instant refund for cancelled orders (within 2 hours)</li>
+            <li>✔ Easy, hassle-free returns process</li>
+            <li>✔ No-questions-asked policy for quality issues</li>
+            <li>✔ Wallet credit within 24 hours</li>
+            <li>✔ SMS confirmation of refund processed</li>
+            <li>✔ Dedicated refund tracking page</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 18: SERVICE BLUEPRINT -->
+    <section class="slide" id="slide18">
+      <div class="slide-content scrollable">
+        <h2>PharmEasy Service Blueprint - Complete Customer Journey</h2>
+        <p class="slide-subtitle">Click on any stage to view details | Toggle layers to focus on specific aspects</p>
+        
+        <!-- Toggle Controls -->
+        <div class="blueprint-controls">
+          <button class="btn btn--sm blueprint-toggle active" onclick="toggleLayer(&#39;all&#39;)">All Layers</button>
+          <button class="btn btn--sm blueprint-toggle" onclick="toggleLayer(&#39;physical&#39;)">Physical Evidence</button>
+          <button class="btn btn--sm blueprint-toggle" onclick="toggleLayer(&#39;customer&#39;)">Customer Actions</button>
+          <button class="btn btn--sm blueprint-toggle" onclick="toggleLayer(&#39;frontstage&#39;)">Frontstage</button>
+          <button class="btn btn--sm blueprint-toggle" onclick="toggleLayer(&#39;backstage&#39;)">Backstage</button>
+          <button class="btn btn--sm blueprint-toggle" onclick="toggleLayer(&#39;support&#39;)">Support Systems</button>
+        </div>
+        
+        <!-- Legend -->
+        <div class="blueprint-legend">
+          <div class="legend-item">
+            <div class="legend-color" style="background: var(--color-bg-1);"></div>
+            <span>Physical Evidence / Touchpoints</span>
+          </div>
+          <div class="legend-item">
+            <div class="legend-color" style="background: var(--color-bg-3);"></div>
+            <span>Customer Actions</span>
+          </div>
+          <div class="legend-item">
+            <div class="legend-color" style="background: var(--color-bg-2);"></div>
+            <span>Frontstage (Visible)</span>
+          </div>
+          <div class="legend-item">
+            <div class="legend-color" style="background: var(--color-bg-5);"></div>
+            <span>Backstage (Invisible)</span>
+          </div>
+          <div class="legend-item">
+            <div class="legend-color" style="background: var(--color-bg-7);"></div>
+            <span>Support Processes</span>
+          </div>
+        </div>
+        
+        <!-- Service Blueprint Diagram -->
+        <div class="service-blueprint-container" id="serviceBlueprintContainer">
+          <!-- Stage 1 -->
+          <div class="blueprint-column" onclick="showStageDetails(1)">
+            <div class="bp-stage-number">1</div>
+            <div class="bp-layer bp-physical" data-layer="physical">
+              <div class="bp-icon">📱🌐</div>
+              <div class="bp-text">App/Website</div>
+            </div>
+            <div class="bp-layer bp-customer" data-layer="customer">
+              <div class="bp-label">CUSTOMER</div>
+              <div class="bp-text">Download App/Visit Website</div>
+            </div>
+            <div class="bp-layer bp-frontstage" data-layer="frontstage">
+              <div class="bp-label">FRONTSTAGE</div>
+              <div class="bp-text">App Interface, Search, Filters</div>
+            </div>
+            <div class="bp-layer bp-backstage" data-layer="backstage">
+              <div class="bp-label">BACKSTAGE</div>
+              <div class="bp-text">Server, Database, Search Algorithm</div>
+            </div>
+            <div class="bp-layer bp-support" data-layer="support">
+              <div class="bp-label">SUPPORT</div>
+              <div class="bp-text">IT Infrastructure, Cloud</div>
+            </div>
+            <div class="bp-value">✓ Easy Access</div>
+          </div>
+          
+          <!-- Stage 2 -->
+          <div class="blueprint-column" onclick="showStageDetails(2)">
+            <div class="bp-stage-number">2</div>
+            <div class="bp-layer bp-physical" data-layer="physical">
+              <div class="bp-icon">🔍💊</div>
+              <div class="bp-text">Search Results</div>
+            </div>
+            <div class="bp-layer bp-customer" data-layer="customer">
+              <div class="bp-label">CUSTOMER</div>
+              <div class="bp-text">Search Medicine</div>
+            </div>
+            <div class="bp-layer bp-frontstage" data-layer="frontstage">
+              <div class="bp-label">FRONTSTAGE</div>
+              <div class="bp-text">Product Pages, Ratings, Price Comparison</div>
+            </div>
+            <div class="bp-layer bp-backstage" data-layer="backstage">
+              <div class="bp-label">BACKSTAGE</div>
+              <div class="bp-text">Inventory Mgmt, Recommendation Engine</div>
+            </div>
+            <div class="bp-layer bp-support" data-layer="support">
+              <div class="bp-label">SUPPORT</div>
+              <div class="bp-text">Database System, Analytics</div>
+            </div>
+            <div class="bp-value">✓ Easy Discovery</div>
+          </div>
+          
+          <!-- Stage 3 -->
+          <div class="blueprint-column" onclick="showStageDetails(3)">
+            <div class="bp-stage-number">3</div>
+            <div class="bp-layer bp-physical" data-layer="physical">
+              <div class="bp-icon">📄</div>
+              <div class="bp-text">Upload Interface</div>
+            </div>
+            <div class="bp-layer bp-customer" data-layer="customer">
+              <div class="bp-label">CUSTOMER</div>
+              <div class="bp-text">Upload Prescription</div>
+            </div>
+            <div class="bp-layer bp-frontstage" data-layer="frontstage">
+              <div class="bp-label">FRONTSTAGE</div>
+              <div class="bp-text">Upload UI, Verification Status, Chat</div>
+            </div>
+            <div class="bp-layer bp-backstage" data-layer="backstage">
+              <div class="bp-label">BACKSTAGE</div>
+              <div class="bp-text">Pharmacist Validation, Doc Storage</div>
+            </div>
+            <div class="bp-layer bp-support" data-layer="support">
+              <div class="bp-label">SUPPORT</div>
+              <div class="bp-text">Document Mgmt, Compliance</div>
+            </div>
+            <div class="bp-value">✓ Safe Handling</div>
+          </div>
+          
+          <!-- Stage 4 -->
+          <div class="blueprint-column" onclick="showStageDetails(4)">
+            <div class="bp-stage-number">4</div>
+            <div class="bp-layer bp-physical" data-layer="physical">
+              <div class="bp-icon">🛒</div>
+              <div class="bp-text">Cart Page</div>
+            </div>
+            <div class="bp-layer bp-customer" data-layer="customer">
+              <div class="bp-label">CUSTOMER</div>
+              <div class="bp-text">Add to Cart</div>
+            </div>
+            <div class="bp-layer bp-frontstage" data-layer="frontstage">
+              <div class="bp-label">FRONTSTAGE</div>
+              <div class="bp-text">Cart UI, Coupon Apply, Checkout</div>
+            </div>
+            <div class="bp-layer bp-backstage" data-layer="backstage">
+              <div class="bp-label">BACKSTAGE</div>
+              <div class="bp-text">Inventory Check, Price Calc, Validation</div>
+            </div>
+            <div class="bp-layer bp-support" data-layer="support">
+              <div class="bp-label">SUPPORT</div>
+              <div class="bp-text">E-commerce Platform, Inventory</div>
+            </div>
+            <div class="bp-value">✓ Flexibility</div>
+          </div>
+          
+          <!-- Stage 5 -->
+          <div class="blueprint-column" onclick="showStageDetails(5)">
+            <div class="bp-stage-number">5</div>
+            <div class="bp-layer bp-physical" data-layer="physical">
+              <div class="bp-icon">💳</div>
+              <div class="bp-text">Payment Gateway</div>
+            </div>
+            <div class="bp-layer bp-customer" data-layer="customer">
+              <div class="bp-label">CUSTOMER</div>
+              <div class="bp-text">Make Payment</div>
+            </div>
+            <div class="bp-layer bp-frontstage" data-layer="frontstage">
+              <div class="bp-label">FRONTSTAGE</div>
+              <div class="bp-text">Payment Options, SSL, Confirmation</div>
+            </div>
+            <div class="bp-layer bp-backstage" data-layer="backstage">
+              <div class="bp-label">BACKSTAGE</div>
+              <div class="bp-text">Payment Processing, Fraud Detection</div>
+            </div>
+            <div class="bp-layer bp-support" data-layer="support">
+              <div class="bp-label">SUPPORT</div>
+              <div class="bp-text">Payment Gateway, Banking Network</div>
+            </div>
+            <div class="bp-value">✓ Secure</div>
+          </div>
+          
+          <!-- Stage 6 -->
+          <div class="blueprint-column" onclick="showStageDetails(6)">
+            <div class="bp-stage-number">6</div>
+            <div class="bp-layer bp-physical" data-layer="physical">
+              <div class="bp-icon">📬</div>
+              <div class="bp-text">SMS/Email</div>
+            </div>
+            <div class="bp-layer bp-customer" data-layer="customer">
+              <div class="bp-label">CUSTOMER</div>
+              <div class="bp-text">Receive Confirmation</div>
+            </div>
+            <div class="bp-layer bp-frontstage" data-layer="frontstage">
+              <div class="bp-label">FRONTSTAGE</div>
+              <div class="bp-text">Confirmation Msg, Order Details, Timeline</div>
+            </div>
+            <div class="bp-layer bp-backstage" data-layer="backstage">
+              <div class="bp-label">BACKSTAGE</div>
+              <div class="bp-text">Order Entry, Notification Trigger</div>
+            </div>
+            <div class="bp-layer bp-support" data-layer="support">
+              <div class="bp-label">SUPPORT</div>
+              <div class="bp-text">Notification System, Database</div>
+            </div>
+            <div class="bp-value">✓ Instant Feedback</div>
+          </div>
+          
+          <!-- Stage 7 -->
+          <div class="blueprint-column" onclick="showStageDetails(7)">
+            <div class="bp-stage-number">7</div>
+            <div class="bp-layer bp-physical" data-layer="physical">
+              <div class="bp-icon">📦</div>
+              <div class="bp-text">Packaging</div>
+            </div>
+            <div class="bp-layer bp-customer" data-layer="customer">
+              <div class="bp-label">CUSTOMER</div>
+              <div class="bp-text">Wait for Processing</div>
+            </div>
+            <div class="bp-layer bp-frontstage" data-layer="frontstage">
+              <div class="bp-label">FRONTSTAGE</div>
+              <div class="bp-text">Processing Status, Pharmacist Chat</div>
+            </div>
+            <div class="bp-layer bp-backstage" data-layer="backstage">
+              <div class="bp-label">BACKSTAGE</div>
+              <div class="bp-text">Pharmacist Review, QC, Expiry Check</div>
+            </div>
+            <div class="bp-layer bp-support" data-layer="support">
+              <div class="bp-label">SUPPORT</div>
+              <div class="bp-text">Warehouse Mgmt, Quality Assurance</div>
+            </div>
+            <div class="bp-value">✓ Quality Check</div>
+          </div>
+          
+          <!-- Stage 8 -->
+          <div class="blueprint-column" onclick="showStageDetails(8)">
+            <div class="bp-stage-number">8</div>
+            <div class="bp-layer bp-physical" data-layer="physical">
+              <div class="bp-icon">📍</div>
+              <div class="bp-text">Tracking Link</div>
+            </div>
+            <div class="bp-layer bp-customer" data-layer="customer">
+              <div class="bp-label">CUSTOMER</div>
+              <div class="bp-text">Track Delivery</div>
+            </div>
+            <div class="bp-layer bp-frontstage" data-layer="frontstage">
+              <div class="bp-label">FRONTSTAGE</div>
+              <div class="bp-text">Real-time Tracking, SMS, Driver Info</div>
+            </div>
+            <div class="bp-layer bp-backstage" data-layer="backstage">
+              <div class="bp-label">BACKSTAGE</div>
+              <div class="bp-text">Logistics Coordination, GPS System</div>
+            </div>
+            <div class="bp-layer bp-support" data-layer="support">
+              <div class="bp-label">SUPPORT</div>
+              <div class="bp-text">Tracking System, Logistics Network</div>
+            </div>
+            <div class="bp-value">✓ Transparency</div>
+          </div>
+          
+          <!-- Stage 9 -->
+          <div class="blueprint-column" onclick="showStageDetails(9)">
+            <div class="bp-stage-number">9</div>
+            <div class="bp-layer bp-physical" data-layer="physical">
+              <div class="bp-icon">🚚</div>
+              <div class="bp-text">Delivery Vehicle</div>
+            </div>
+            <div class="bp-layer bp-customer" data-layer="customer">
+              <div class="bp-label">CUSTOMER</div>
+              <div class="bp-text">Receive Medicine</div>
+            </div>
+            <div class="bp-layer bp-frontstage" data-layer="frontstage">
+              <div class="bp-label">FRONTSTAGE</div>
+              <div class="bp-text">Delivery Executive, OTP, Receipt</div>
+            </div>
+            <div class="bp-layer bp-backstage" data-layer="backstage">
+              <div class="bp-label">BACKSTAGE</div>
+              <div class="bp-text">Delivery Confirmation, Status Update</div>
+            </div>
+            <div class="bp-layer bp-support" data-layer="support">
+              <div class="bp-label">SUPPORT</div>
+              <div class="bp-text">Delivery Partner Fleet, Last-mile</div>
+            </div>
+            <div class="bp-value">✓ Professional</div>
+          </div>
+          
+          <!-- Stage 10 -->
+          <div class="blueprint-column" onclick="showStageDetails(10)">
+            <div class="bp-stage-number">10</div>
+            <div class="bp-layer bp-physical" data-layer="physical">
+              <div class="bp-icon">💬</div>
+              <div class="bp-text">Support Chat</div>
+            </div>
+            <div class="bp-layer bp-customer" data-layer="customer">
+              <div class="bp-label">CUSTOMER</div>
+              <div class="bp-text">Use Medicine / Support</div>
+            </div>
+            <div class="bp-layer bp-frontstage" data-layer="frontstage">
+              <div class="bp-label">FRONTSTAGE</div>
+              <div class="bp-text">24/7 Support, Refill Reminders</div>
+            </div>
+            <div class="bp-layer bp-backstage" data-layer="backstage">
+              <div class="bp-label">BACKSTAGE</div>
+              <div class="bp-text">CRM System, Support Tickets</div>
+            </div>
+            <div class="bp-layer bp-support" data-layer="support">
+              <div class="bp-label">SUPPORT</div>
+              <div class="bp-text">Customer Service Infrastructure</div>
+            </div>
+            <div class="bp-value">✓ 24/7 Help</div>
+          </div>
+          
+          <!-- Stage 11 -->
+          <div class="blueprint-column" onclick="showStageDetails(11)">
+            <div class="bp-stage-number">11</div>
+            <div class="bp-layer bp-physical" data-layer="physical">
+              <div class="bp-icon">💰</div>
+              <div class="bp-text">Refund Form</div>
+            </div>
+            <div class="bp-layer bp-customer" data-layer="customer">
+              <div class="bp-label">CUSTOMER</div>
+              <div class="bp-text">Refund/Return</div>
+            </div>
+            <div class="bp-layer bp-frontstage" data-layer="frontstage">
+              <div class="bp-label">FRONTSTAGE</div>
+              <div class="bp-text">Refund Form, Return Pickup</div>
+            </div>
+            <div class="bp-layer bp-backstage" data-layer="backstage">
+              <div class="bp-label">BACKSTAGE</div>
+              <div class="bp-text">Refund Processing, Payment Reversal</div>
+            </div>
+            <div class="bp-layer bp-support" data-layer="support">
+              <div class="bp-label">SUPPORT</div>
+              <div class="bp-text">Refund System, Payment Gateway</div>
+            </div>
+            <div class="bp-value">✓ Easy Process</div>
+          </div>
+          
+          <!-- Stage 12 -->
+          <div class="blueprint-column" onclick="showStageDetails(12)">
+            <div class="bp-stage-number">12</div>
+            <div class="bp-layer bp-physical" data-layer="physical">
+              <div class="bp-icon">⭐</div>
+              <div class="bp-text">Review Form</div>
+            </div>
+            <div class="bp-layer bp-customer" data-layer="customer">
+              <div class="bp-label">CUSTOMER</div>
+              <div class="bp-text">Leave Review</div>
+            </div>
+            <div class="bp-layer bp-frontstage" data-layer="frontstage">
+              <div class="bp-label">FRONTSTAGE</div>
+              <div class="bp-text">Review Interface, Rating System</div>
+            </div>
+            <div class="bp-layer bp-backstage" data-layer="backstage">
+              <div class="bp-label">BACKSTAGE</div>
+              <div class="bp-text">Review Moderation, Sentiment Analysis</div>
+            </div>
+            <div class="bp-layer bp-support" data-layer="support">
+              <div class="bp-label">SUPPORT</div>
+              <div class="bp-text">Review System, Feedback Analytics</div>
+            </div>
+            <div class="bp-value">✓ Transparency</div>
+          </div>
+        </div>
+        
+        <div class="insight-box" style="margin-top: 30px;">
+          <strong>Service Blueprint Insight:</strong> The blueprint reveals that value addition is strongest in early stages (discovery, payment), but deteriorates significantly during delivery and post-delivery support. Critical gaps exist in backstage processes around quality control and customer service responsiveness.
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 19: KEY INSIGHTS & FINDINGS -->
+    <section class="slide" id="slide19">
+      <div class="slide-content">
+        <h2>Critical Findings &amp; Insights</h2>
+        <div class="findings-grid">
+          <div class="finding-card urgent">
+            <div class="finding-icon">⚠️</div>
+            <h3>Systemic Service Failure</h3>
+            <p>73% negative sentiment indicates deep-rooted operational and service delivery issues requiring comprehensive transformation.</p>
+          </div>
+          <div class="finding-card urgent">
+            <div class="finding-icon">🚚</div>
+            <h3>Delivery Crisis</h3>
+            <p>Delivery reliability is the #1 pain point (156/616 mentions = 25%). This is the most critical area requiring immediate intervention.</p>
+          </div>
+          <div class="finding-card urgent">
+            <div class="finding-icon">📞</div>
+            <h3>Customer Service Breakdown</h3>
+            <p>Customer support scores critically low (28/100), with 142 complaints about unresponsive service. Support infrastructure needs complete overhaul.</p>
+          </div>
+          <div class="finding-card warning">
+            <div class="finding-icon">💔</div>
+            <h3>Trust Erosion</h3>
+            <p>Gap between promise and delivery is causing severe trust erosion. 45% give 1-star ratings, indicating loss of customer confidence.</p>
+          </div>
+          <div class="finding-card warning">
+            <div class="finding-icon">📈</div>
+            <h3>Deteriorating Trend</h3>
+            <p>Complaints increasing 8-12% monthly (May: 142 → Oct: 203). Without urgent action, customer exodus is imminent.</p>
+          </div>
+          <div class="finding-card warning">
+            <div class="finding-icon">🎯</div>
+            <h3>Weakest Link Identified</h3>
+            <p>Post-delivery support is the weakest touchpoint (60/100 pain score). Most customer relationships deteriorate after purchase.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SLIDE 20: CONCLUSION & IMPLEMENTATION -->
+    <section class="slide" id="slide20">
+      <div class="slide-content">
+        <h2>Implementation Roadmap &amp; Expected Outcomes</h2>
+        <div class="impact-comparison">
+          <div class="comparison-section">
+            <h3>Current State</h3>
+            <div class="metric-row">
+              <span>Customer Satisfaction</span>
+              <div class="metric-bar current">
+                <div class="bar-fill" style="width: 27%;">27%</div>
+              </div>
+            </div>
+            <div class="metric-row">
+              <span>Delivery Reliability</span>
+              <div class="metric-bar current">
+                <div class="bar-fill" style="width: 45%;">45%</div>
+              </div>
+            </div>
+            <div class="metric-row">
+              <span>Customer Service Score</span>
+              <div class="metric-bar current">
+                <div class="bar-fill" style="width: 28%;">28</div>
+              </div>
+            </div>
+            <div class="metric-row">
+              <span>Complaint Volume</span>
+              <div class="metric-bar current">
+                <div class="bar-fill" style="width: 100%;">100%</div>
+              </div>
+            </div>
+          </div>
+          <div class="arrow-divider">→</div>
+          <div class="comparison-section">
+            <h3>Projected State (Post-Implementation)</h3>
+            <div class="metric-row">
+              <span>Customer Satisfaction</span>
+              <div class="metric-bar projected">
+                <div class="bar-fill" style="width: 70%;">70%+</div>
+              </div>
+            </div>
+            <div class="metric-row">
+              <span>Delivery Reliability</span>
+              <div class="metric-bar projected">
+                <div class="bar-fill" style="width: 90%;">90%+</div>
+              </div>
+            </div>
+            <div class="metric-row">
+              <span>Customer Service Score</span>
+              <div class="metric-bar projected">
+                <div class="bar-fill" style="width: 80%;">80+</div>
+              </div>
+            </div>
+            <div class="metric-row">
+              <span>Complaint Volume</span>
+              <div class="metric-bar projected">
+                <div class="bar-fill" style="width: 40%;">-60%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-box">
+          <h3>Implementation Timeline</h3>
+          <div class="timeline-phases">
+            <div class="phase-card" style="background: var(--color-bg-1)">
+              <h4>Phase 1: Months 1-2</h4>
+              <p>Customer Service &amp; Refund System</p>
+            </div>
+            <div class="phase-card" style="background: var(--color-bg-2)">
+              <h4>Phase 2: Months 3-4</h4>
+              <p>Delivery &amp; Logistics Improvements</p>
+            </div>
+            <div class="phase-card" style="background: var(--color-bg-3)">
+              <h4>Phase 3: Months 5-6</h4>
+              <p>Quality Assurance &amp; Tech</p>
+            </div>
+            <div class="phase-card" style="background: var(--color-bg-4)">
+              <h4>Phase 4: Months 7-12</h4>
+              <p>Full Integration &amp; Optimization</p>
+            </div>
+          </div>
+        </div>
+        <div class="success-metrics">
+          <h3>Expected Impact (6-Month Goal)</h3>
+          <ul>
+            <li><strong>Customer Satisfaction:</strong> 27% → 70%+</li>
+            <li><strong>Delivery Reliability:</strong> 45/100 → 90+/100</li>
+            <li><strong>Customer Support:</strong> 28/100 → 80+/100</li>
+            <li><strong>Complaint Volume:</strong> -60% reduction expected</li>
+            <li><strong>Net Promoter Score:</strong> Target 50+</li>
+          </ul>
+        </div>
+        <div class="cta-box">
+          <h3>Call to Action</h3>
+          <p><strong>Patient-centric service delivery is achievable with strategic focus</strong></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Removed extra slides -->
+    <!-- Total slides now = 20 -->
+
+
+  </div>
+
+  <!-- Navigation Controls -->
+  <div class="nav-controls">
+    <button class="btn btn--secondary" id="prevBtn" onclick="prevSlide()" style="opacity: 1;">
+      ← Previous
+    </button>
+    <button class="btn btn--secondary" id="nextBtn" onclick="nextSlide()">Next →</button>
+  </div>
+
+  <!-- Modal for detailed information -->
+  <div class="modal" id="detailModal">
+    <div class="modal-content">
+      <span class="modal-close" onclick="closeModal()">×</span>
+      <h3 id="modalTitle"></h3>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <script src="./PharmEasy Customer Review Analysis - Academic Project_files/app.js.download"></script>
+
+</body></html>
